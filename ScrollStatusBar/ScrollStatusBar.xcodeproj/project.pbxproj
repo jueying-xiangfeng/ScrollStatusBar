@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FE49EAE1FCCFA4200E1ACAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE49EAD1FCCFA4200E1ACAA /* AppDelegate.m */; };
+		4FE49EB11FCCFA4200E1ACAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE49EB01FCCFA4200E1ACAA /* ViewController.m */; };
+		4FE49EB41FCCFA4200E1ACAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FE49EB21FCCFA4200E1ACAA /* Main.storyboard */; };
+		4FE49EB61FCCFA4200E1ACAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FE49EB51FCCFA4200E1ACAA /* Assets.xcassets */; };
+		4FE49EB91FCCFA4200E1ACAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FE49EB71FCCFA4200E1ACAA /* LaunchScreen.storyboard */; };
+		4FE49EBC1FCCFA4200E1ACAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE49EBB1FCCFA4200E1ACAA /* main.m */; };
+		4FE49EC51FCCFDCE00E1ACAA /* ScrollStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE49EC41FCCFDCE00E1ACAA /* ScrollStatusBar.m */; };
+		4FE49EC81FCCFDE700E1ACAA /* UIScrollView+ScrollStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE49EC71FCCFDE700E1ACAA /* UIScrollView+ScrollStatusBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4FE49EA91FCCFA4200E1ACAA /* ScrollStatusBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollStatusBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FE49EAC1FCCFA4200E1ACAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4FE49EAD1FCCFA4200E1ACAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4FE49EAF1FCCFA4200E1ACAA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4FE49EB01FCCFA4200E1ACAA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4FE49EB31FCCFA4200E1ACAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FE49EB51FCCFA4200E1ACAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FE49EB81FCCFA4200E1ACAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FE49EBA1FCCFA4200E1ACAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FE49EBB1FCCFA4200E1ACAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4FE49EC31FCCFDCE00E1ACAA /* ScrollStatusBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollStatusBar.h; sourceTree = "<group>"; };
+		4FE49EC41FCCFDCE00E1ACAA /* ScrollStatusBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollStatusBar.m; sourceTree = "<group>"; };
+		4FE49EC61FCCFDE700E1ACAA /* UIScrollView+ScrollStatusBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+ScrollStatusBar.h"; sourceTree = "<group>"; };
+		4FE49EC71FCCFDE700E1ACAA /* UIScrollView+ScrollStatusBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+ScrollStatusBar.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FE49EA61FCCFA4200E1ACAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FE49EA01FCCFA4200E1ACAA = {
+			isa = PBXGroup;
+			children = (
+				4FE49EAB1FCCFA4200E1ACAA /* ScrollStatusBar */,
+				4FE49EAA1FCCFA4200E1ACAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FE49EAA1FCCFA4200E1ACAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FE49EA91FCCFA4200E1ACAA /* ScrollStatusBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FE49EAB1FCCFA4200E1ACAA /* ScrollStatusBar */ = {
+			isa = PBXGroup;
+			children = (
+				4FE49EC21FCCFDA600E1ACAA /* ScrollStatusBar */,
+				4FE49EAC1FCCFA4200E1ACAA /* AppDelegate.h */,
+				4FE49EAD1FCCFA4200E1ACAA /* AppDelegate.m */,
+				4FE49EAF1FCCFA4200E1ACAA /* ViewController.h */,
+				4FE49EB01FCCFA4200E1ACAA /* ViewController.m */,
+				4FE49EB21FCCFA4200E1ACAA /* Main.storyboard */,
+				4FE49EB51FCCFA4200E1ACAA /* Assets.xcassets */,
+				4FE49EB71FCCFA4200E1ACAA /* LaunchScreen.storyboard */,
+				4FE49EBA1FCCFA4200E1ACAA /* Info.plist */,
+				4FE49EBB1FCCFA4200E1ACAA /* main.m */,
+			);
+			path = ScrollStatusBar;
+			sourceTree = "<group>";
+		};
+		4FE49EC21FCCFDA600E1ACAA /* ScrollStatusBar */ = {
+			isa = PBXGroup;
+			children = (
+				4FE49EC31FCCFDCE00E1ACAA /* ScrollStatusBar.h */,
+				4FE49EC41FCCFDCE00E1ACAA /* ScrollStatusBar.m */,
+				4FE49EC61FCCFDE700E1ACAA /* UIScrollView+ScrollStatusBar.h */,
+				4FE49EC71FCCFDE700E1ACAA /* UIScrollView+ScrollStatusBar.m */,
+			);
+			path = ScrollStatusBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FE49EA81FCCFA4200E1ACAA /* ScrollStatusBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FE49EBF1FCCFA4200E1ACAA /* Build configuration list for PBXNativeTarget "ScrollStatusBar" */;
+			buildPhases = (
+				4FE49EA51FCCFA4200E1ACAA /* Sources */,
+				4FE49EA61FCCFA4200E1ACAA /* Frameworks */,
+				4FE49EA71FCCFA4200E1ACAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollStatusBar;
+			productName = ScrollStatusBar;
+			productReference = 4FE49EA91FCCFA4200E1ACAA /* ScrollStatusBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FE49EA11FCCFA4200E1ACAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Key;
+				TargetAttributes = {
+					4FE49EA81FCCFA4200E1ACAA = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4FE49EA41FCCFA4200E1ACAA /* Build configuration list for PBXProject "ScrollStatusBar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FE49EA01FCCFA4200E1ACAA;
+			productRefGroup = 4FE49EAA1FCCFA4200E1ACAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FE49EA81FCCFA4200E1ACAA /* ScrollStatusBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FE49EA71FCCFA4200E1ACAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE49EB91FCCFA4200E1ACAA /* LaunchScreen.storyboard in Resources */,
+				4FE49EB61FCCFA4200E1ACAA /* Assets.xcassets in Resources */,
+				4FE49EB41FCCFA4200E1ACAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FE49EA51FCCFA4200E1ACAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE49EC51FCCFDCE00E1ACAA /* ScrollStatusBar.m in Sources */,
+				4FE49EB11FCCFA4200E1ACAA /* ViewController.m in Sources */,
+				4FE49EC81FCCFDE700E1ACAA /* UIScrollView+ScrollStatusBar.m in Sources */,
+				4FE49EBC1FCCFA4200E1ACAA /* main.m in Sources */,
+				4FE49EAE1FCCFA4200E1ACAA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4FE49EB21FCCFA4200E1ACAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FE49EB31FCCFA4200E1ACAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FE49EB71FCCFA4200E1ACAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FE49EB81FCCFA4200E1ACAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FE49EBD1FCCFA4200E1ACAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4FE49EBE1FCCFA4200E1ACAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FE49EC01FCCFA4200E1ACAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33BJFWXXVX;
+				INFOPLIST_FILE = ScrollStatusBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jueying.beta.ScrollStatusBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FE49EC11FCCFA4200E1ACAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33BJFWXXVX;
+				INFOPLIST_FILE = ScrollStatusBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jueying.beta.ScrollStatusBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FE49EA41FCCFA4200E1ACAA /* Build configuration list for PBXProject "ScrollStatusBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FE49EBD1FCCFA4200E1ACAA /* Debug */,
+				4FE49EBE1FCCFA4200E1ACAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FE49EBF1FCCFA4200E1ACAA /* Build configuration list for PBXNativeTarget "ScrollStatusBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FE49EC01FCCFA4200E1ACAA /* Debug */,
+				4FE49EC11FCCFA4200E1ACAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FE49EA11FCCFA4200E1ACAA /* Project object */;
+}

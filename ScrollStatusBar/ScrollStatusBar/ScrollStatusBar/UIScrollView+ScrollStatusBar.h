@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ScrollStatusBar.h"
 
 @interface UIScrollView (ScrollStatusBar)
+
+@property (nonatomic, strong) ScrollStatusBar * scrollStatusBar;
 
 @end
